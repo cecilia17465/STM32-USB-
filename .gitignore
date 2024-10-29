@@ -1,0 +1,7 @@
+DebugConfig/
+RTE/
+*.csv
+*.xlsx
+*.uvoptx
+*.uvguix.*
+build/

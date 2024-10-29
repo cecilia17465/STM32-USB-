@@ -1,0 +1,30 @@
+[project_search_path]: ./
+[map_search_path]: ./
+[project_file_path]: .//USB_MSC_F4.uvprojx
+[ map_file_path]: .//USB_MSC_F4_app/USB_MSCapp.map
+[parse_keil_map start]: 
+[Found keyword]: ----------Execution Region----------
+[name]:  ER_IROM1 
+[Exec base]: 0x8010000
+[Size]: 0x49d8
+[Max]: 0x70000
+[Found keyword]: ----------Execution Region----------
+[name]:  RW_IRAM1 
+[Exec base]: 0x20000000
+[Size]: 0x113e8
+[Max]: 0x1c000
+[Found keyword]: ----------Execution Region----------
+[name]:  RW_IRAM2 
+[Exec base]: 0x2001c000
+[Size]: 0
+[Max]: 0x4000
+[parse_keil_map over printf bar]: 
+  RW_IRAM1 :0x20000000
+  112.00 KB :|¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö________|   61.59 % (   68.98 KB /   112.00 KB) [44056 B]
+  RW_IRAM2 :0x2001c000
+   16.00 KB :|____________________|    0.00 % (    0.00 KB /    16.00 KB) [16384 B]
+  ER_IROM1 :0x8010000
+  448.00 KB :|____________________|    4.12 % (   18.46 KB /   448.00 KB) [439848 B]
+[export csv]: ./USB_MSC_F4_app_sort_by_flash.csv
+[export csv]: ./USB_MSC_F4_app_sort_by_ram.csv
+[export xlsx]: USB_MSC_F4_app_analysis.xlsx
